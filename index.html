@@ -5,16 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Player Profile</title>
+  <link rel="icon" href="img/football.png">
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <section class="mx-10">
-    
-  </section>
+  <!-- header section -->
+  <header>
+    <div class="bg-cover bg-center  h-auto text-white py-24 px-10 object-fill" style="background-image: url(img/gallery.jpg)">
+      <div>
+       <p class="text-8xl font-bold text-center">Welcome to Football Mania</p>
+       <p class="text-2xl mb-10 leading-none text-center py-8">Get your player with budget</p>
+       </div>  
+   </div>
+  </header>
   <!-- player section -->
   <section>
-    <div class="grid grid-cols-4 gap-4 mx-10 mt-8 gap-0">
+    <div class="grid grid-cols-4">
       <!-- player area -->
       <div class="col-span-3 bg-gray-600">
         <div class="grid grid-cols-3 mx-4 p-2">
@@ -26,10 +32,10 @@
               </a>
               <div class="p-5">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Karim Benzema</h5>
+                    <h5 id="playerName-1" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Karim Benzema</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Real Madrid</p>
-                <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">SELECT</button>
+                <button id="playerBtn-1" type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">SELECT</button>
               </div>
             </div>
           </div>
@@ -41,10 +47,10 @@
               </a>
               <div class="p-5">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Kevin De Bruyne</h5>
+                    <h5 id="playerName-2" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Kevin De Bruyne</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Man City</p>
-                <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">SELECT</button>
+                <button id="playerBtn-2" type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">SELECT</button>
               </div>
             </div>
           </div>
@@ -56,10 +62,10 @@
               </a>
               <div class="p-5">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Robert Lewandowski</h5>
+                    <h5 id="playerName-3" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Robert Lewandowski</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Byarn Munich</p>
-                <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">SELECT</button>
+                <button id="playerBtn-3" type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">SELECT</button>
               </div>
             </div>
           </div>
@@ -71,10 +77,10 @@
               </a>
               <div class="p-5">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mohamed Salah</h5>
+                    <h5 id="playerName-4" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Mohamed Salah</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Liverpool</p>
-                <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">SELECT</button>
+                <button id="playerBtn-4" type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">SELECT</button>
               </div>
             </div>
           </div>
@@ -86,25 +92,25 @@
               </a>
               <div class="p-5">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Erling Haaland</h5>
+                    <h5 id="playerName-5" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Erling Haaland</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Dortmund</p>
-                <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">SELECT</button>
+                <button id="playerBtn-5" type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">SELECT</button>
               </div>
             </div>
           </div>
           <!-- player 6 -->
           <div>
-            <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800       dark:border-gray-700 my-8">
+            <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 my-8">
               <a href="#">
                 <img class="rounded-t-lg" src="img/Lionel Messi.jpg" alt="">
               </a>
               <div class="p-5">
                 <a href="#">
-                    <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lionel Messi</h5>
+                    <h5 id="playerName-6" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Lionel Messi</h5>
                 </a>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">PSG</p>
-                <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">SELECT</button>
+                <button id="playerBtn-6" type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">SELECT</button>
               </div>
             </div>
           </div>
@@ -112,17 +118,13 @@
       </div>
       <!-- player end -->
       <!-- calculation area start -->
-      <div class="row-span-2 bg-gray-800">
+      <div class="row-span-2 bg-gray-800 pt-2">
         <div>
          <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mx-auto my-8">
           <div class="p-5">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white h-64">Player List<br><hr><br>
-                  <ol class="list-decimal pl-6">
-                    <li>Hasanul KArim</li>
-                    <li>Hasanul KArim</li>
-                    <li>Hasanul KArim</li>
-                    <li>Hasanul KArim</li>
-                    <li>Hasanul KArim</li>
+                  <ol id="playerList" class="list-decimal pl-6">
+                    
                   </ol>
                 </h5>
           </div>
@@ -134,15 +136,15 @@
           <div class="p-5">
                 <h5 class="mb-4 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Budget<br><hr></h5>
             <p class="mb-3 text-white text-2xl inline-block">Per Player</p>
-            <input class="p-2 block mb-3 rounded-lg inline-block ml-3" type="text" value="5000" placeholder="Enter Price">
-            <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-lg w-full py-2.5 text-center mr-2 mb-2">Calculate</button>
-            <p class="my-3 text-white text-2xl py-2">Player Expense <span class="my-3 text-white text-2xl">$5000</span></p>
+            <input id="perPlayerField" class="p-2 block mb-3 rounded-lg inline-block ml-3" type="text" value="1000" placeholder="Enter Price">
+            <button id="playerCostBtn" type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-lg w-full py-2.5 text-center mr-2 mb-2">Calculate</button>
+            <p class="my-3 text-white text-2xl py-2">Player Expense <span class="my-3 text-white text-2xl">$<span id="playerCost">5000</span></span></p>
             <p class="mb-3 text-white text-2xl inline-block">Manager</p>
-            <input class="p-2 block mb-3 rounded-lg inline-block ml-4" type="text" value="5000" placeholder="Enter Price">
+            <input id="managerField" class="p-2 block mb-3 rounded-lg inline-block ml-4" type="text" value="1000" placeholder="Enter Price">
             <p class="mb-3 text-white text-2xl inline-block">Coach</p>
-            <input class="p-2 block mb-3 rounded-lg inline-block ml-11" type="text" value="5000" placeholder="Enter Price">
-            <button type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-lg w-full py-2.5 text-center mr-2 mb-2">Calculate Total</button>
-            <p class="my-3 text-white text-2xl">Total Expense <span class="my-3 text-white text-2xl">$5000</span></p>
+            <input id="coachField" class="p-2 block mb-3 rounded-lg inline-block ml-11" type="text" value="1000" placeholder="Enter Price">
+            <button id="totalCostBtn" type="button" class="text-white bg-gradient-to-br from-pink-500 to-orange-400 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800 font-medium rounded-lg text-lg w-full py-2.5 text-center mr-2 mb-2">Calculate Total</button>
+            <p class="my-3 text-white text-2xl">Total Expense <span class="my-3 text-white text-2xl">$<span id="totalCost">7000</span></p>
           </div>
          </div>
       </div>
