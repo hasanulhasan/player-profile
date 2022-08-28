@@ -37,6 +37,11 @@ function isMore5times(count){   // function to check 5 times
   }
 }
 
+function btnDisable(btnNumber){
+  btnNumber.className = 'bg-blue-500 text-white font-bold py-2 px-4 opacity-50 cursor-not-allowed rounded-lg px-5 py-2.5 text-center mr-2 mb-2';
+  btnNumber.disabled = true;
+}
+
 let counter = 0;
 
 // event lisner for player starts
@@ -45,43 +50,37 @@ playerBtn_1.addEventListener('click', function(){
   counter += 1;
   isMore5times(counter);
   enterAChild('li', player_1, 'playerList');
-  playerBtn_1.className = 'bg-blue-500 text-white font-bold py-2 px-4 opacity-50 cursor-not-allowed rounded-lg px-5 py-2.5 text-center mr-2 mb-2';
-  playerBtn_1.disabled = true;
+  btnDisable(playerBtn_1);
 })
 playerBtn_2.addEventListener('click', function(){
   counter += 1;
   isMore5times(counter);
   enterAChild('li', player_2, 'playerList');
-  playerBtn_2.className = 'bg-blue-500 text-white font-bold py-2 px-4 opacity-50 cursor-not-allowed rounded-lg px-5 py-2.5 text-center mr-2 mb-2';
-  playerBtn_2.disabled = true;
+  btnDisable(playerBtn_2);
 })
 playerBtn_3.addEventListener('click', function(){
   counter += 1;
   isMore5times(counter);
   enterAChild('li', player_3, 'playerList');
-  playerBtn_3.className = 'bg-blue-500 text-white font-bold py-2 px-4 opacity-50 cursor-not-allowed rounded-lg px-5 py-2.5 text-center mr-2 mb-2';
-  playerBtn_3.disabled = true;
+  btnDisable(playerBtn_3);
 })
 playerBtn_4.addEventListener('click', function(){
   counter += 1;
   isMore5times(counter);
   enterAChild('li', player_4, 'playerList');
-  playerBtn_4.className = 'bg-blue-500 text-white font-bold py-2 px-4 opacity-50 cursor-not-allowed rounded-lg px-5 py-2.5 text-center mr-2 mb-2';
-  playerBtn_4.disabled = true;
+  btnDisable(playerBtn_4);
 })
 playerBtn_5.addEventListener('click', function(){
   counter += 1;
   isMore5times(counter);
   enterAChild('li', player_5, 'playerList');
-  playerBtn_5.className = 'bg-blue-500 text-white font-bold py-2 px-4 opacity-50 cursor-not-allowed rounded-lg px-5 py-2.5 text-center mr-2 mb-2';
-  playerBtn_5.disabled = true;
+  btnDisable(playerBtn_5);
 })
 playerBtn_6.addEventListener('click', function(){
   counter += 1;
   isMore5times(counter);
   enterAChild('li', player_6, 'playerList');
-  playerBtn_6.className = 'bg-blue-500 text-white font-bold py-2 px-4 opacity-50 cursor-not-allowed rounded-lg px-5 py-2.5 text-center mr-2 mb-2';
-  playerBtn_6.disabled = true;
+  btnDisable(playerBtn_6);
 })
 
 // event lisner for player end
