@@ -87,7 +87,7 @@ playerBtn_6.addEventListener('click', function(){
 
 // calculation start
 playerCostBtn.addEventListener('click', function(){
-  playerCost.innerText = perPlayerField.value * 5;
+  playerCost.innerText = perPlayerField.value * counter;
 })
 totalCostBtn.addEventListener('click', function(){
   let manager = parseInt(managerField.value);
